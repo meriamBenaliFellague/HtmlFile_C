@@ -1,12 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-struct video{
-	char src_video[6];
-	char video_name[20];
-	char name[16];
-	char image[6];
-	int subscribers;
-};
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
