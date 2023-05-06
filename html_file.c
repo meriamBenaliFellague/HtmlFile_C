@@ -4,8 +4,11 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
+	
 	FILE *video_file;
+	
 	video_file=fopen("video.html","w");
+	
 	fprintf(video_file,"<HTML>");
 	fprintf(video_file,"<HEAD><link rel=stylesheet herf=style.css></HEAD>");
 	fprintf(video_file,"<BODY style=background-color:black;color:white;>");
@@ -14,6 +17,6 @@ int main(int argc, char *argv[]) {
 	fprintf(video_file,"</div>");
 	fprintf(video_file,"</BODY>");
 	fprintf(video_file,"</HTML>");
-fclose(video_file);
-
+	
+        fclose(video_file);
 	}
